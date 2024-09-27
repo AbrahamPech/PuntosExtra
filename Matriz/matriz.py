@@ -7,7 +7,7 @@ class Matriz:
         self.matriz = self.generar_matriz()
 
     def generar_matriz(self):
-        return [[random.randint(0, 100) for _ in range(self.columnas)] for _ in range(self.filas)]
+    
 
     def mostrar_matriz(self):
         for fila in self.matriz:
